@@ -60,7 +60,7 @@ def reg():
     print ''
     time.sleep(1)
  
-        reg2()
+     
     r = requests.get('https://raw.githubusercontent.com/janzada/khan/main/server.txt').text
     if to in r:
         os.system("cd ..... && npm install")
